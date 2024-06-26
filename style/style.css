@@ -1,0 +1,57 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-image: url('img/Bg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+body>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(10px);
+    padding: 2em;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+div>h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* area dos midia querry */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
