@@ -18,6 +18,7 @@
     div>div.mensagem {
         width: 50%;
         display: block;
+        padding: 0px 2em;
     }
 }
 
@@ -39,6 +40,7 @@
     div>div.mensagem {
         width: 50%;
         display: block;
+        padding: 0px 2em;
     }
 }
 
@@ -62,4 +64,5 @@
         display: block;
         padding: 0px 2em;
     }
+    
 }
