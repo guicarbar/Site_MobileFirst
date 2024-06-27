@@ -5,22 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaquerry.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <title>Login</title>
 </head>
 <body>
     <div>
-        <h1>Login</h1>
-        <form method="post">
-            <div>
-                <label for="usuario">Username:</label>
-                <input type="text" id="usuario" name="ususario">
+        <div class="login">
+            <h1>Login</h1>
+            <p>
+                Seja bem-vindo(a) novamente, faça login!
+            </p>
+
+            <form method="post">
+                <div>
+                    <i class="material-symbols-outlined">person</i>
+                    <input type="email" id="user" name="usuario">
+                    <label for="user">Usuario</label>
+                </div>
+
+                <div>
+                    <i class="material-symbols-outlined">key</i>
+                    <input type="email" id="pass" name="senha">
+                    <label for="user">Senha</label>
+                </div>
+
+                <input type="submit">
+
+                <a href="">
+                    Esqueci a senha
+                </a>
+            </form>
+        </div>
+
+        <div class="mensagem">
+            <h1>Confira as novidades</h1>
+            <p>
+                Adicionamos novidades todas as semanas.
+            </p>
+            <div class="campo">
+                <ul type="none">
+                    <li>Novas customizações de elementos.</li>
+                    <li>Mais pinceis de pintura.</li>
+                    <li>Mais icones e elemtos.</li>
+                    <li>Nova versao da IA - Julios.</li>
+                    <li>Expansão da area criativa.</li>
+                </ul>
+
+                <p>
+                    Confira mais novidades na proxima semana.
+                </p>
             </div>
-            <div>
-                <label for="senha">Passaword:</label>
-                <input type="password" id="senha" name="senha">
-            </div>
-        </form>
+        </div>
     </div>
 </body>
 </html>
